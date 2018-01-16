@@ -1,0 +1,19 @@
+#main {
+    margin: 0;
+    padding: 0;
+}
+
+#headbar {
+    background-color: #5d4037;
+}
+
+#pripol {
+    font-family: 'Hind Siliguri', sans-serif;
+    padding-left: 12vw;
+    margin-top: 0;
+    margin-bottom: 0;
+}
+
+#pripol p {
+    margin-top: 10px;
+}

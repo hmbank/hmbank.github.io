@@ -1,0 +1,118 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width">
+    <title>HM Bank | Your Home</title>
+    <link href="homeadlg.css" rel="stylesheet" type="text/css" />
+    <link href="https://fonts.googleapis.com/css?family=Roboto:100,300,400|Archivo" rel="stylesheet">
+    <!-- !!! MATERIAL DESIGN ICONS IMPORT - VERY IMPORTANT !!! -->
+    <link href="https://fonts.googleapis.com/icon?family=Material+Icons"
+      rel="stylesheet">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/materialize/0.100.2/css/materialize.min.css">
+  </head>
+  <body id="bg-main">
+      <div id="main">
+          <ul id="dropdown1" class="dropdown-content">
+            <li class="waves-effect"><a href="#!" class="red-text text-darken-2">Settings</a></li>
+            <li class="waves-effect"><a href="#!" class="red-text text-darken-2">Logout</a></li>
+          </ul>
+
+          <nav class="z-depth-2 red darken-2">
+            <div class="nav-wrapper container">
+                <a href="./index.html" class="brand-logo" style="margin-left: 8px;">HM | Bank</a>
+                <ul class="right hide-on-med-and-down">
+                    <li><a href="./index.html" class="waves-effect waves-light">Home</a></li>
+                    <li><a href="./faqprimo.html" class="waves-effect waves-light">FAQ</a></li>
+                    <li><a href"" class="dropdown-button" data-activates="dropdown1">Account<i class="material-icons right">arrow_drop_down</i></a></li>
+                </ul>
+                <ul class="side-nav show-on-med-and-up" id="mobile-demo">
+                    <li><a href="./index.html" class="waves-effect waves-light">Home</a></li>
+                    <li><a href="./faqprimo.html" class="waves-effect waves-light">FAQ</a></li>
+                    <li><a href="" class="waves-effect waves-light dropdown-button">Account<i class="material-icons right">arrow_drop_down</i></a></li>
+                </ul>
+            </div>
+          </nav>
+
+        <div class="container z-depth-1" id="bg-white">
+            <div class="row">
+                <div class="col s12">
+                    <ul class="tabs">
+                        <li class="tab col s3"><a href="#summary" id="override-tc">Summary</a></li>
+                        <li class="tab col s3"><a href="#2"  id="override-tc">Stock Market</a></li>
+                        <li class="tab col s3"><a href="#3"  id="override-tc">Transactions</a></li>
+                        <li class="tab col s3"><a href="#4"  id="override-tc">Bank Settings</a></li>
+                    </ul>
+                </div>
+                <div id="summary">
+                    <div class="div">
+                        <div class="toptxt">
+                           <p>Total Deposits:<br><b>$1195</b></p>
+                           <p>Total Automatic Withdrawls:<br><b>$3212</b></p>
+                           <p>Average Balance:<br><b>$5000</b></p>
+                           <p>Average Interest:<br><b>4%</b></p>
+                        </div>
+
+                        <div class="midtxt">
+                          <h1>Most Recent Transactions:</h1>
+                          <div class="transactions">
+                              <p>+$1250 | Weekly Paycheck | Kam Trauth</p>
+                              <p class="alt">-$30 | Smonk Corporation | Kam Trauth</p>
+                              <p>-$3 | Taco Queso | Kam Trauth</p>
+                              <p class="alt">-$500 | Weekly Rent | Kam Trauth</p>
+                              <p>+$1250 | Weekly Paycheck | Kam Trauth</p>
+                              <p class="alt">-$600 | Cash Withdrawl | <span class="fraa"><span class="material-icons">warning</span> Potential Fraud Warning</span> | Kam Trauth</p>
+                              <p>Example | Example | Kam Trauth</p>
+                              <p class="alt">Example | Example | Kam Trauth</p>
+                              <p>Example | Example | Kam Trauth</p>
+                              <p class="alt">Example | Example | Kam Trauth</p>
+                          </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div><!--Container End -->
+
+        <!-- Fixed action button -->
+        <div class="fixed-action-btn">
+            <a data-position="left" data-tooltip="Create  A Transaction Between Two Users" data-delay="0" id="action_button" class="btn-floating red waves-effect waves-light btn-large tooltipped" href="#!"><i class="large material-icons">compare_arrows</i></a>
+            <!-- options that appear on clicking of the button -->
+            <ul>
+                <li><a data-position="left" data-tooltip="Deposit Money Into An Account" data-delay="0" class="btn-floating yellow waves-effect waves-light darken-2 tooltipped" href="#"><i class="large material-icons">add</i></a></li>
+                <li><a  data-position="left" data-tooltip="Withraw Money From An Account" data-delay="0" class="btn-floating green waves-effect waves-light tooltipped" href="#"><i class="large material-icons">remove</i></a></li>
+                <li><a data-tooltip="Create Repeating Transactions" data-position="left" data-delay="0" class="btn-floating blue waves-effect waves-light tooltipped" href="#"><i class="large material-icons">loop</i></a></li>
+            </ul>
+        </div>
+    </div><!-- This is where the main div ends-->
+
+    <footer class="page-footer grey darken-4 hide-on-med-and-down">
+    <div class="container">
+        <div class="row">
+          <div class="col l6 s12">
+             <h5 class="white-text">This Whole Site Is Under Development</h5>
+             <p class="grey-text text-lighten-4">Some features will not work.</p>
+          </div>
+          <div class="col l4 offset-l2 s12">
+             <h5 class="white-text"></h5>
+             <ul>
+              <li><a class="grey-text text-lighten-3" href="./index.html">Home</a></li>
+              <li><a class="grey-text text-lighten-3" href="./faqprimo.html">FAQ's</a></li>
+              <li><a class="grey-text text-lighten-3" href="./privacy.tos/privacy.html">Privacy Policy</a></li>
+              <li><a class="grey-text text-lighten-3" href="#!">Terms Of Service</a></li>
+            </ul>
+          </div>
+        </div>
+    </div>
+      <div class="footer-copyright grey darken-3">
+        <div class="container">
+            © 2018 Hollow Mountain Bank
+        <a class="grey-text text-lighten-4 right" href="#!"></a>
+        </div>
+      </div>
+    </footer>
+
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.12.4/jquery.min.js"></script>
+    <!-- Compiled and minified JavaScript -->
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/materialize/0.100.2/js/materialize.min.js"></script>
+  </body>
+</html>

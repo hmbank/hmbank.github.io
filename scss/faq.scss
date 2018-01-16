@@ -1,0 +1,74 @@
+$maincolor: #006064;
+
+/* Begin Top Bar */
+
+#headbar {
+  background-color: $maincolor;
+}
+
+/* End Top Bar */
+
+body {
+    margin: 0;
+}
+
+#main {
+  margin: 0;
+  background-color: white;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-attachment: fixed;
+  text-align: center;
+}
+
+
+.faqhead {
+  font-family: 'Oxygen';
+  font-weight: 400;
+  color: black;
+  display: inline-block;
+  width: 65vw;
+  padding: 0.35vh 0.35vw;
+  margin-top: 3vh;
+  margin-bottom: 0;
+  font-size: 125%;
+  border-bottom-style: solid;
+  border-bottom-width: thin;
+  border-bottom-color: $maincolor;
+}
+
+.faqhead.top {
+  font-family: 'Oxygen';
+  font-weight: 400;
+  color: black;
+  display: inline-block;
+  width: 65vw;
+  padding: 0.35vh 0.35vw;
+  margin-top: 12vh;
+  margin-bottom: 0;
+  font-size: 125%;
+  border-bottom-style: solid;
+  border-bottom-width: thin;
+  border-bottom-color: $maincolor;
+}
+
+.faqpar {
+  font-family: 'Hind Siliguri';
+  font-weight: 100;
+  color: black;
+  display: inline-block;
+  width: 75vw;
+  padding: 0.35vh 0.35vw;
+  margin-top: 0.25vh;
+  border-bottom-left-radius: 7px;
+  border-bottom-right-radius: 7px;
+}
+
+/*IMPORTANT DO NOT REMOVE */
+.material-icons {
+  font-family: 'Material Icons';
+  font-size: 16px;
+  vertical-align: middle;
+  display: inline-block;
+  padding-bottom: 3px;
+}

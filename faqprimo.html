@@ -1,0 +1,79 @@
+<!DOCTYPE html>
+<html>
+ <!-- Note: When Updating This Page Please Update The mobile Version too. Copy + paste will be just fine Don't Copy Pasta Anything but questions please -->
+ <head>
+   <meta charset="utf-8">
+   <meta name="viewport" content="width=device-width">
+   <title>HM Bank | FAQ</title>
+   <link href="faq.css" rel="stylesheet" type="text/css" />
+   <link href="https://fonts.googleapis.com/css?family=Hind+Siliguri|Roboto:100,300,400|Oxygen" rel="stylesheet">
+   <link href="./topbar-sidebar.css" rel="stylesheet" type="text/css"/>
+   <link href="https://fonts.googleapis.com/icon?family=Material+Icons"
+     rel="stylesheet">
+   <link href="footer.css" rel="stylesheet" type="text/css" />
+ </head>
+ <body>
+   <!--Headbar/sidebar -->
+   <div id="dim"></div>
+   <div id="headbar">
+     <h2>Frequently Asked Questions</h2>
+   </div>
+   <div id="sidebar">
+     <ul>
+       <li><a href="./index.html"><span class="material-icons" title="Your Home">home</span> Home</a></li>
+       <li><a href="#" class="current"><span class="material-icons">question_answer</span> FAQ's</a></li>
+       <li><a href="./create3-0.html"><span class="material-icons">add_circle</span> Create An Account</a></li>
+       <li><a href="./login3-0.html"><span class="material-icons">lock_outline</span> Login</a></li>
+     </ul>
+     <div id="sidebar-btn">
+       <span></span>
+       <span></span>
+       <span></span>
+    </div>
+   </div>
+   <!-- Headbar.sidebar end -->
+   <div id="main">
+   <h2 class="faqhead top">What Even Is An Educational Bank?</h2>
+   <p class="faqpar">An educational bank is a bank that functions very similarly to a bank in real life, but is all in a virtual world with no repercussions. This allows teachers to teach students about money and spending. For more advanced programs, we offer a virtual stock market for students to buy and sell stock that mirrors that of the real life stock market. We also allow manual adjustment of stock prices.</p>
+   <h2 class="faqhead">How Much Does It Cost?</h2>
+   <p class="faqpar">As of right now the service is free for organizations wishing to have only one administrator. This "free" plan does include advertisements. These can be removed via our premium plans. In addition to this, if you wish to have more than one administrator you will also have to pay for a premium plan.</p>
+   <h2 class="faqhead">Can I Use This In My School?</h2>
+   <p class="faqpar">Yes! We love schools. As of right now we offer a hefty <em>50%</em> education discount. All you need to provide is proof that you are, a school. Again, if you would like to get your school started with HM|Bank, please <a href="#">contact us</a> for more information. We would love to provide the tools you need for your classroom to succeed.</p>
+   <h2 class="faqhead">How Do I Get Started?</h2>
+   <p class="faqpar">Get started by visiting our account creation page. From there you can create a cohort, which will allow you to have multiple students or customers.</p>
+   <h2 class="faqhead">Is Mobile Supported?</h2>
+   <p class="faqpar">No. As of right now the only way you can check or manage your bank is on a computer. We would like to expand this website by creating a mobile app for iOS and Android, but we don't have the resources for this right now.</p>
+   <h2 class="faqhead">Why Use Us Over Other Alternatives?</h2>
+   <p class="faqpar">The primary reason would be the intergration. While other websites like how the market works offer a virtual stock market and my kids bank offers a virtual bank, neither really offer an integrated experience between a virtual bank and a virtual stock market. We also have a clean, modern UI which other sites are lacking of. </p>
+   </div>
+
+   <footer>
+     <div class="f-wrapper">
+       <h2>
+         HM | Bank
+       </h2>
+       <ul class="f-list">
+         <li><a href="./privacy.tos/privacy.html">Privacy Policy</a></li>
+         <li><a href="#">Terms Of Service</a></li>
+       </ul>
+     </div>
+   </footer>
+
+   <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.12.4/jquery.min.js"></script>
+   <script>
+   //jQuery Crap plox ignore
+     $(document).ready(function(){
+           $('#sidebar-btn').click(function(){
+               $('#sidebar').toggleClass('active');
+               $('#dim').toggleClass('active');
+               $('#headbar').toggleClass('active');
+           });
+           $('#dim').click(function(){
+               $('#sidebar').toggleClass('active');
+               $('#dim').toggleClass('active');
+               $('#headbar').toggleClass('active');
+           });
+       });
+   </script>
+ </body>
+</html>

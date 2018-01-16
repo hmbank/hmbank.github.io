@@ -1,0 +1,90 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width">
+    <title>HM Bank | Your Home</title>
+    <link href="topbar-sidebar.css" rel="stylesheet" type="text/css" />
+    <link href="homelgin.css" rel="stylesheet" type="text/css" />
+    <link href="https://fonts.googleapis.com/css?family=Open+Sans:300,400|Roboto:100,300,400|Oxygen" rel="stylesheet"/>
+    <!-- !!! MATERIAL DESIGN ICONS IMPORT - VERY IMPORTANT !!! -->
+    <link href="https://fonts.googleapis.com/icon?family=Material+Icons"
+      rel="stylesheet"/>
+    <link href="footer.css" rel="stylesheet" type="text/css" />
+  </head>
+  <body id="main">
+    <div id="dim"></div>
+    <div id="sidebar">
+      <ul>
+        <li><a href="#" class="current"><span class="material-icons">home</span> Your Summary</a></li>
+        <li><a href="#"><span class="material-icons">trending_up</span> The Stock Market</a></li>
+        <li><a href="#"><span class="material-icons">account_balance</span> Your Accounts</a></li>
+        <li><a href="#"><span class="material-icons">add_circle_outline</span> Open A New Account</a></li>
+        <li><a href="#"><span class="material-icons">settings</span> Settings</a></li>
+        <li><a href="./index.html"><span class="material-icons">exit_to_app</span> Exit</a></li>
+      </ul>
+      <div id="sidebar-btn">
+        <span></span>
+        <span></span>
+        <span></span>
+     </div>
+    </div>
+
+    <div class="opening">
+      <h1>Your Summary:</h1>
+      <p>Here you can see a personalized summary of everything you need to know.</p>
+    </div>
+    <div class="arrow-down-open"></div>
+    <div class="toptxt">
+       <p>Current Balance (Checking):<br><b>$1195</b></p>
+       <p>Current Balance (Savings):<br><b>$3212</b></p>
+       <p>Current Income:<br><b>$5000</b></p>
+       <p>Current Expenses:<br><b>$4500</b></p>
+    </div>
+
+    <div class="midtxt">
+      <h1>Your Most Recent Transactions:</h1>
+      <div class="transactions">
+          <p>+$1250 | Weekly Paycheck</p>
+          <p class="alt">-$30 | Smonk Corporation</p>
+          <p>-$3 | Taco Queso</p>
+          <p class="alt">-$500 | Weekly Rent</p>
+          <p>+$1250 | Weekly Paycheck</p>
+          <p class="alt">-$600 | Cash Withdrawl | <span class="fraa"><span class="material-icons">warning</span> Potential Fraud Warning</span></p>
+          <p>Example | Example</p>
+          <p class="alt">Example | Example</p>
+          <p>Example | Example</p>
+          <p class="alt">Example | Example</p>
+      </div>
+    </div>
+
+    <footer>
+      <div class="f-wrapper">
+        <h2>
+          HM | Bank
+        </h2>
+        <ul class="f-list">
+          <li><a href="./privacy.tos/privacy.html">Privacy Policy</a></li>
+          <li><a href="#">Terms Of Service</a></li>
+        </ul>
+      </div>
+    </footer>
+
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.12.4/jquery.min.js"></script>
+    <script>
+    //jQuery Crap plox ignore
+      $(document).ready(function(){
+    		$('#sidebar-btn').click(function(){
+    			$('#sidebar').toggleClass('active');
+    			$('#dim').toggleClass('active');
+    			$('#headbar').toggleClass('active');
+    		});
+    		$('#dim').click(function(){
+    			$('#sidebar').toggleClass('active');
+    			$('#dim').toggleClass('active');
+    			$('#headbar').toggleClass('active');
+    		});
+    	});
+    </script>
+  </body>
+</html>

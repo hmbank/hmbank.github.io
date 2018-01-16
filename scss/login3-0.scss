@@ -1,0 +1,140 @@
+/*Variable Declaration*/
+$maincolor: #00bcd4;
+$mainlight: lighten($maincolor,5%);
+
+body {
+  margin: 0;
+  padding: 0;
+}
+
+#top {
+  margin-top: 100px;
+}
+
+/* Begin Top Bar */
+
+#headbar {
+  background-color: $maincolor;
+}
+
+/* Form Begin */
+
+#logindiv {
+  padding-left: 12vw;
+  min-height: 100vh;
+}
+
+#logindiv label {
+  font-family: 'Hind Siliguri';
+  margin-bottom: 2px;
+}
+
+#logindiv p {
+  font-family: 'Hind Siliguri';
+  margin-bottom: 2px;
+}
+
+.matdesbutton {
+  text-align: center;
+  color: white;
+  margin-top: 5vh;
+  -webkit-appearance: none;
+  -webkit-border-radius: 3px;
+  -moz-appearance: none;
+  -moz-border-radius: 3px;
+  border-radius: 3px;
+  padding-left: 16px;
+  padding-right: 16px;
+  padding-top: 10px;
+  padding-bottom: 10px;
+  background-color: $maincolor;
+  text-decoration: none;
+  border: none;
+  box-shadow: 0 3px 6px rgba(0,0,0,0.16), 0 3px 6px rgba(0,0,0,0.23);
+  font-size: 125%;
+  transition-property: box-shadow background-color;
+  transition-duration: 350ms;
+  transition-timing-function: cubic-bezier(0.4, 0.0, 0.2, 1);
+  margin-bottom: 0;
+}
+
+.matdesbutton:hover {
+  cursor: pointer;
+  background-color: $mainlight;
+  box-shadow: 0 3px 6px rgba(0,0,0,0.32), 0 3px 6px rgba(0,0,0,0.46);
+  transition-property: box-shadow background-color;
+  transition-duration: 350ms;
+  transition-timing-function: cubic-bezier(0.4, 0.0, 0.2, 1);
+}
+
+.input-container {
+  position: relative;
+  display: inline-block;
+}
+
+.input-container:after {
+  content: '';
+  position: absolute;
+  bottom: 0;
+  left: 0;
+  height: 2px;
+  width: 0;
+  background-color: $maincolor;
+  transition: 275ms cubic-bezier(0.4, 0.0, 0.2, 1);
+}
+
+.input-container input {
+  border: none;
+  background: transparent;
+  border-bottom: 1px solid #ccc;
+  outline: none;
+  padding-bottom: 4px;
+  width: 40vw;
+  margin-top: 0;
+}
+
+.input-container:before, .input-container.focused:after {
+    positon: absolute;
+    width: 100%;
+}
+
+.form a {
+  margin-top: 3px;
+  margin-bottom: 0;
+  font-family: 'Hind Siliguri';
+  color: black;
+  font-size: 80%;
+  text-decoration: none;
+  transition-property: color;
+  transition-duration: 350ms;
+  transition-timing-function: cubic-bezier(0.4, 0.0, 0.2, 1);
+  display: block;
+  width: auto;
+}
+
+.form a:hover {
+  color: $maincolor;
+}
+
+.info {
+  padding-top: 1px;
+}
+
+.info:hover {
+  cursor: pointer;
+}
+
+/*Footer Stuff*/
+
+footer {
+  height: 150px;
+  left: 0;
+}
+
+footer h2 {
+  padding-left: 0;
+}
+
+footer ul li {
+  padding-left: 0;
+}

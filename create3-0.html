@@ -1,0 +1,117 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width">
+    <title>HM Bank | Create</title>
+    <link href="https://fonts.googleapis.com/css?family=Hind+Siliguri:100,400|Roboto:100,300,400|Oxygen" rel="stylesheet">
+    <!-- !!! MATERIAL DESIGN ICONS IMPORT - VERY IMPORTANT !!! -->
+    <link href="https://fonts.googleapis.com/icon?family=Material+Icons"
+      rel="stylesheet">
+    <link href="./topbar-sidebar.css" rel="stylesheet" type="text/css"/>
+    <!-- !!! MATERIAL DESIGN ICONS IMPORT - VERY IMPORTANT !!! -->
+    <link href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/materialize/0.100.2/css/materialize.min.css">
+  </head>
+  <body id="main">
+
+    <ul id="dropdown1" class="dropdown-content">
+      <li class="waves-effect"><a href="#!">Create</a></li>
+      <li class="waves-effect"><a href="./login3-0.html">Login</a></li>
+    </ul>
+    <nav class="teal">
+      <div class="nav-wrapper container">
+          <a href="./index.html" class="brand-logo" style="margin-left: 8px;">HM | Bank</a>
+          <ul class="right hide-on-med-and-down">
+              <li><a href="./index.html" class="waves-effect waves-light">Home</a></li>
+              <li><a href="./faqprimo.html" class="waves-effect waves-light">FAQ</a></li>
+              <li><a href="" class="dropdown-button" data-activates="dropdown1">Account<i class="material-icons right">arrow_drop_down</i></a></li>
+          </ul>
+          <ul class="side-nav" id="mobile-demo">
+              <li><a href="#" class="waves-effect waves-light">Home</a></li>
+              <li><a href="#" class="waves-effect waves-light">FAQ</a></li>
+              <li><a href="#" class="waves-effect waves-light">Account</a></li>
+          </ul>
+      </div>
+    </nav>
+
+    <!--This is the login screen-->
+    <div class="container">
+        <form style="margin-top: 10px;">
+            <div class="row">
+                <div class="input-field col s6">
+                    <input type="text" id="fname" name="fname-f" class="validate" required>
+                    <label for="fname">First Name</label>
+                </div>
+                <div class="input-field col s6">
+                    <input type="text" id="lname" name="lname-f" class="validate" required>
+                    <label for="lname">Last Name</label>
+                </div>
+            </div>
+            <div class="input-field">
+                <input type="text" id="uname" name="uname-f" class="validate" required>
+                <label for="uname">Username</label>
+            </div>
+                <div class="input-field">
+                    <input type="email" id="email" name="email-f" class="validate" required>
+                    <label for="email">Email</label>
+                </div>
+                <div class="input-field ">
+                    <input type="email" id="cemail" name="email-c" class="validate" required>
+                    <label for="cemail">Confirm Email</label>
+                </div>
+            <div class="input-field">
+                <input type="password" id="password" name="password-f" class="validate" required>
+                <label for="password" >Password</label>
+            </div>
+            <div class="input-field">
+                <input type="password" id="cpassword" name="password-c" class="validate" required>
+                <label for="cpassword">Confirm Password</label>
+            </div>
+            <div class="row valign-wrapper">
+                <div class="input-field col s6">
+                    <input type="text" name="o-id-f" id="o-id" class="validate" required>
+                    <label for="o-id" >Enter Your Organization ID</label>
+                </div>
+
+                <div class="col s6 valign-wrapper">
+                    <input type="checkbox" name="confirm_tos-pri" value="tos-pri_agreed" id="agree-ff"  required>
+                    <label for="agree-ff" >I Accept The Terms of Service And Have Read The Privacy Policy.</label>
+                </div>
+            </div>
+            <div class="input-field" style="margin-bottom: 50px;">
+                <input type="submit" name="f_submit" value="Create Your Account" class="btn waves-effect waves-light">
+            </div>
+        </form>
+    </div> <!--Container End --> <br /><br /><br /><br /><br />
+
+    <footer class="page-footer grey darken-4 hide-on-med-and-down">
+    <div class="container">
+        <div class="row">
+          <div class="col l6 s12">
+             <h5 class="white-text">This Whole Site Is Under Development</h5>
+             <p class="grey-text text-lighten-4">Some features will not work.</p>
+          </div>
+          <div class="col l4 offset-l2 s12">
+             <h5 class="white-text"></h5>
+             <ul>
+              <li><a class="grey-text text-lighten-3" href="./index.html">Home</a></li>
+              <li><a class="grey-text text-lighten-3" href="./faqprimo.html">FAQ's</a></li>
+              <li><a class="grey-text text-lighten-3" href="./privacy.tos/privacy.html">Privacy Policy</a></li>
+              <li><a class="grey-text text-lighten-3" href="#!">Terms Of Service</a></li>
+            </ul>
+          </div>
+        </div>
+    </div>
+      <div class="footer-copyright grey darken-3">
+        <div class="container">
+            © 2018 Hollow Mountain Bank
+        <a class="grey-text text-lighten-4 right" href="#!"></a>
+        </div>
+      </div>
+    </footer>
+
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.12.4/jquery.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/materialize/0.100.2/js/materialize.min.js"></script>
+  </body>
+</html>

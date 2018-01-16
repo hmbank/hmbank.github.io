@@ -1,0 +1,123 @@
+$maincolor: #d32f2f;
+$mainlight: lighten($maincolor,5%);
+$accentcolor: #007cee;
+
+
+.main {
+  display: block;
+  margin: auto;
+  background: white;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-attachment: fixed;
+}
+
+.tabs .indicator {
+    color: #2196f3;
+}
+
+/* Begin Top Bar */
+
+#headbar {
+  background-color: $maincolor;
+}
+
+.artopen {
+  font-family: 'Oxygen';
+  color: white;
+  text-align: center;
+  font-size: 300%;
+  margin-top: 35vh;
+  margin-bottom: 0.5vh;
+  font-weight: 100;
+  animation-name: fadein;
+  animation-duration: 2.5s;
+  transition-timing-function: cubic-bezier(0.4, 0.0, 0.2, 1);
+}
+
+.hmb-line-move {
+  text-align: center;
+  text-transform: uppercase;
+  text-decoration: none;
+  padding-bottom: 1px;
+  font-family: 'Roboto';
+  color: white;
+  margin-bottom: 56vh;
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+  opacity: 0;
+  animation-fill-mode: forwards;
+  animation-name: fadein;
+  animation-delay: 1.5s;
+  animation-duration: 2.5s;
+  transition-duration: 300ms;
+  border-radius: 3px;
+  width: 7.8vw;
+  transition-property: background-color;
+  transition-timing-function: cubic-bezier(0.4, 0.0, 0.2, 1);
+  padding-left: 16px;
+  padding-right: 16px;
+  padding-top: 10px;
+  padding-bottom: 10px;
+  background-color: $maincolor;
+}
+
+.hmb-line-move:hover {
+  background-color: $mainlight;
+  transition-duration: 300ms;
+  transition-property: background-color;
+  transition-timing-function: cubic-bezier(0.4, 0.0, 0.2, 1);
+}
+
+b {
+  color: $accentcolor;
+}
+
+.opentxt {
+  font-family: 'Hind Siliguri';
+  color: white;
+  margin:0 auto;
+  padding: 1.25vh 5vw;
+  text-align: center;
+  max-width: 90vw;
+  background-color: $accentcolor;
+  top: 101vh;
+}
+
+.sectxt {
+  font-family: 'Hind Siliguri';
+  color: black;
+  margin:0 auto;
+  padding-left: 5vw;
+  padding-right: 5vw;
+  padding-bottom: 2vh;
+  text-align: center;
+  max-width: 90vw;
+  background-color: white;
+}
+
+/*IMPORTANT DO NOT REMOVE */
+.material-icons {
+  font-family: 'Material Icons';
+  font-size: 16px;
+  vertical-align: middle;
+  display: inline-block;
+  padding-bottom: 3px;
+}
+
+/*Put All Animations Here*/
+@keyframes fadein {
+  from {opacity:0;}
+  to {opacity:1;}
+}
+
+@keyframes fadeout {
+  from {opacity:1;}
+  to {opacity:0;}
+}
+
+@keyframes changecolor1 {
+  from {background-color: #525C6E;}
+  to {background-color: #636C7C;}
+}
